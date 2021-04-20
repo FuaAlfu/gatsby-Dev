@@ -2,6 +2,7 @@
 title: abc
 stack: full
 slug: look-for-more
+date: 2021-01-1T00:00:00+00:00
 ---
 ## more and more
 a **man** pulled off one of footwear’s most disputed styling trends today with a little help from Gucci.

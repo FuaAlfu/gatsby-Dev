@@ -2,6 +2,7 @@
 title: home
 stack: full
 slug: look-for-us
+date: 2021-01-3T00:00:00+00:00
 ---
 ## you are awesome
 

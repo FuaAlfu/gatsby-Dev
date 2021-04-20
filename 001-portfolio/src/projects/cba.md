@@ -2,6 +2,7 @@
 title: abc
 stack: full
 slug: look-for-more
+date: 2021-01-2T00:00:00+00:00
 ---
 ## less than 
 As for **footwear**, the “hoha” chose a daring move by layering her platform silver wedges over soft green socks.
