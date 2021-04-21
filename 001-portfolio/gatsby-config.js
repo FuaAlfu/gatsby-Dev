@@ -26,6 +26,7 @@ module.exports = {
   siteMetadata: {
     title: 'web',
     description: 'web dev portfolio',
-    copyright: 'this website copyright 2021 web'
+    copyright: 'this website copyright 2021 web',
+    contact: 'me@web.com'
   }
 }
