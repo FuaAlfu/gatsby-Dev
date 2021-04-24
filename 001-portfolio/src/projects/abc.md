@@ -3,6 +3,8 @@ title: abc
 stack: full
 slug: look-for-more
 date: 2021-01-1T00:00:00+00:00
+thumb: ../images/thumbs/OIP-1.png
+featuredImg: ../images/featured/rare-1.png
 ---
 ## more and more
 a **man** pulled off one of footwear’s most disputed styling trends today with a little help from Gucci.

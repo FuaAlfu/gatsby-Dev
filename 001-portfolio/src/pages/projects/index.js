@@ -2,6 +2,8 @@ import { graphql,Link } from 'gatsby';
 import React from 'react'
 import Layout from '../../components/Layout'
 import* as styles from '../../styles/projects.module.css'
+import Img from 'gatsby-image'
+
 export default function Projects({ data }) {
     console.log(data);
     //const projects = data.allMarkdownRemark.nodes //old but gold:: before we named our queries
@@ -18,6 +20,7 @@ export default function Projects({ data }) {
                   key={project.id}
                   >
                   <div>
+                    <Img fluid={project.frontmatter.thumbs.childImageSharp.fluid}/>
                       <h3>{project.frontmatter.title}</h3>
                       <p>{project.frontmatter.stack}</p>
                   </div>
@@ -39,11 +42,18 @@ query ProjectsPage {
         slug
         stack
         title
+        thumbs{
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
       id
     }
   }
- contact: site{
+  contact: site {
     siteMetadata {
       contact
     }

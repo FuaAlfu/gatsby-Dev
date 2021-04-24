@@ -25,10 +25,9 @@ export default function Home({ data }) {
 }
 
 export const query = graphql`
-query banner {
-   file(sourceInstanceName: {}, relativePath: {eq: "banner.png"}) {
-     id
-     childrenImageSharp {
+query Banner {
+   file(relativePath: {eq: "banner.png"}) {
+    childImageSharp {
        fluid {
          ...GatsbyImageSharpFluid
        }

@@ -3,6 +3,8 @@ title: home
 stack: full
 slug: look-for-us
 date: 2021-01-3T00:00:00+00:00
+thumb: ../images/thumbs/OIP-3.png
+featuredImg: ../images/featured/rare-3.png
 ---
 ## you are awesome
 
