@@ -42,13 +42,7 @@ query ProjectsPage {
         slug
         stack
         title
-        thumbs{
-          childImageSharp {
-            fluid {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
+        thumb
       }
       id
     }
@@ -60,3 +54,13 @@ query ProjectsPage {
   }
 }
 `;
+
+/*
+thumb{
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+*/
