@@ -12,10 +12,9 @@ import styled from 'styled-components';
 const IndexPage = ({data}) => (
   <Layout>
     <Seo title="Home" />
-    <h1>Hi people</h1>
+    <h1>Hi everyone</h1>
     <B>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
+    <p>Welcome to your new thing.</p>
     </B>
 
    {/* Bootstrap works off of a 12 column so if we divide these 12 b 4 we got 3 colums */}
@@ -43,8 +42,7 @@ const IndexPage = ({data}) => (
    
 
     <p>
-      <Link to="/page-2/">Go to page 2</Link> <br />
-      <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
+      <Link to="https://jolly-borg-908e59.netlify.app/">Go to HOME</Link> <br />
     </p>
   </Layout>
 )
