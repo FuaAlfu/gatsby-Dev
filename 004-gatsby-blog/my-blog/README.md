@@ -1,3 +1,15 @@
+---
+stack: gatsby
+lang: js
+---
+
+## Install gatsby source filesystem
+```
+npm i gatsby-source-filesystem
+```
+
+---
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.com">
