@@ -8,6 +8,21 @@ lang: js
 npm i gatsby-source-filesystem
 ```
 
+## Install sharp 
+```
+npm i --save gatsby-transformer-sharp gatsby-plugin-sharp
+```
+
+## Insatll mdx
+```
+npm install gatsby-plugin-mdx @mdx-js/mdx @mdx-js/react
+```
+
+## Install remark images
+```
+npm i gatsby-remark-images
+```
+
 ---
 
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
