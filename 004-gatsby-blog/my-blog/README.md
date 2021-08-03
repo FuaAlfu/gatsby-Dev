@@ -23,6 +23,11 @@ npm install gatsby-plugin-mdx @mdx-js/mdx @mdx-js/react
 npm i gatsby-remark-images
 ```
 
+## Install google fonts
+```
+npm install gatsby-plugin-google-fonts
+```
+
 ---
 
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
